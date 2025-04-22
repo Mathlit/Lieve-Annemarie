@@ -1,12 +1,37 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
-  css: ["~/assets/css/main.css"],
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
+    app: {
+        head: {
+            title: "Lieve Annemarie",
+            htmlAttrs: {
+                lang: "nl",
+            },
+        },
     },
-  },
-  modules: ["nuxt-icon"],
+    devtools: { enabled: true },
+    css: ["~/assets/css/main.css"],
+
+    postcss: {
+        plugins: {
+            tailwindcss: {},
+            autoprefixer: {},
+        },
+    },
+
+    modules: ["nuxt-icon", "@nuxt/fonts"],
+
+    fonts: {
+        families: [
+            {
+                name: "MrsEavesItalic",
+                provider: "local",
+            },
+            {
+                name: "Macarons",
+                provider: "local",
+            },
+        ],
+    },
+
+    compatibilityDate: "2025-04-19",
 });

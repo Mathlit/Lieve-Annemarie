@@ -1,5 +1,5 @@
 <template>
   <LandingNavbar></LandingNavbar>
   <slot></slot>
-  <LandingFooter></LandingFooter>
+  <!-- <LandingFooter></LandingFooter> -->
 </template>

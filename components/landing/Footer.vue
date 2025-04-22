@@ -3,10 +3,6 @@
     <p class="text-center text-sm text-slate-500">
       Copyright © {{ new Date().getFullYear() }} Nuxtship. All rights reserved.
     </p>
-    <!--
-      Can we ask you a favor 🙏
-      Please keep this backlink on your website if possible.
-    -->
     <p class="text-center text-xs text-slate-500 mt-1">
       Made by
       <a
