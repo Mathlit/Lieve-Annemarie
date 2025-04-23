@@ -12,6 +12,7 @@
   "devDependencies": {
     "@hexdigital/nuxt-datocms": "^1.1.5",
     "@nuxt/fonts": "^0.11.1",
+    "@nuxt/icon": "^1.12.0",
     "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "^10.4.16",
     "nuxt": "^3.16.0",

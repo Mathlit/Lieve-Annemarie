@@ -1,6 +1,6 @@
 <template>
     <main class="grid place-items-center pt-16 pb-8 md:pt-8">
-        <div class="pb-4 md:order-1 hidden md:block">
+        <div class="pb-4 md:order-1 block">
             <img
                 class="rounded-full"
                 src="~/assets/img/pf-2.png"

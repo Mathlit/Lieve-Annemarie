@@ -3,7 +3,27 @@
 @tailwind utilities;
 
 
+@theme {
+    --color-primary: #f8e5c6;
+    --color-background: #fbfafa;
+    --color-text: #1e242a;
+
+
+
+    /* --color-accent: #f3722c;
+    --color-background: #fbfafa;
+    --color-text: #1e242a;
+    --color-border: #e5e5e5;
+    --color-shadow: rgba(0, 0, 0, 0.1); */
+}
+
 body {
     background: #fbfafa;
-    color: #1e242a;
+}
+
+@layer base {
+
+    h1, h2, h3, h4, h5 {
+        color: var(--color-text);
+    }
 }

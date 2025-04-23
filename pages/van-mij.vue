@@ -1,0 +1,85 @@
+<script setup>
+const title = ref("Van mij");
+
+definePageMeta({
+    layout: "landing",
+});
+</script>
+
+<template>
+    <Title>{{ title }} - Lieve Annemarie</Title>
+    <LandingContainer>
+        <LandingSectionhead>
+            <template v-slot:title>{{ title }}</template>
+            <template v-slot:desc></template>
+        </LandingSectionhead>
+
+        <div
+            class="flex flex-col gap-4 mt-16 text-slate-500 text-lg leading-relaxed text-center"
+        >
+            <p>
+                Lieverds, het was de wens van Annemarie dat mensen die een
+                donatie willen doen in plaats van bloemen of andere zaken voor
+                haar afscheidsdienst te kopen, dat kunnen doen in de vorm van
+                een bijdrage voor een klein studiefonds voor Gilles en Lena of
+                anderzijds voor Women Inc. We hebben dus een gofundme opgezet.
+            </p>
+            <div class="flex justify-center center mb-4">
+                <a
+                    href="https://www.gofundme.com/f/studiefonds-voor-gilles-en-lena"
+                    target="_blank"
+                    class="py-3 px-5 text-center inline-flex items-center gap-2 text-[#1e242a] bg-[#f8e5c6] rounded-md font-semibold hover:bg-[#f4cf8b] transition duration-200"
+                >
+                    <Icon name="simple-icons:gofundme" />
+                    <span>GoFundMe</span>
+                </a>
+            </div>
+
+            <p>
+                Zo wilde ze dat haar afscheid niet alleen in het teken zou staan
+                van een laatste groet aan haar, maar ook in het teken van de
+                toekomst die zij het liefst voor haar kinderen en andere vrouwen
+                zou zien.
+            </p>
+
+            <p>
+                De opbrengst van deze actie zullen we 50/50 verdelen tussen een
+                klein studiefonds voor de kids en <a class="text-[#f1a7b9]" href="https://www.womeninc.nl" target="_blank">Women Inc</a>. Precies zoals Annemarie dat zou
+                hebben gewild. De schat.
+            </p>
+
+            <p>
+                Deel deze actie gerust onder geliefden en bekenden maar hou het van social media af s.v.p.
+            </p>
+
+            <p>
+                Dank namens iedereen, maar vooral Annemarie.
+            </p>
+
+            <h2 class="text-2xl lg:text-3xl font-bold mt-4 text-[#1e242a]">Muziek</h2>
+            <p>
+                Muziek die Annemarie tot haar laatste momenten met haar meenam:
+            </p>
+
+            <div class="inline-flex justify-center gap-3 center center mb-4">
+                <a
+                    href="https://open.spotify.com/playlist/4X1poonxdifniNlDEeb7pa?pi=0koVbEHqRaWA2"
+                    target="_blank"
+                    class="py-3 px-5 text-center inline-flex items-center gap-2 text-[#1e242a] bg-[#aebfab] rounded-md font-semibold hover:bg-[#95a892] transition duration-200"
+                >
+                    <Icon name="mdi:spotify" />
+                    <span>Milky</span>
+                </a>
+
+                <a
+                    href="https://www.gofundme.com/f/studiefonds-voor-gilles-en-lena"
+                    target="_blank"
+                    class="py-3 px-5 text-center inline-flex items-center gap-2 text-[#1e242a] bg-[#aebfab] rounded-md font-semibold hover:bg-[#95a892] transition duration-200"
+                >
+                    <Icon name="mdi:spotify" />
+                    <span>Ann's Lijstje</span>
+                </a>
+            </div>
+        </div>
+    </LandingContainer>
+</template>

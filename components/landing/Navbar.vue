@@ -8,13 +8,13 @@ const menuitems = [
     title: "Mijn verhaal",
     path: "/mijn-verhaal",
   },
+  // {
+  //   title: "Mijn inspiratie",
+  //   path: "/mijn-inspiratie",
+  // },
   {
-    title: "Mijn inspiratie",
-    path: "/mijn-inspiratie",
-  },
-  {
-    title: "Mijn wensen",
-    path: "/mijn-wensen",
+    title: "Van mij",
+    path: "/van-mij",
   },
   {
     title: "Jouw verhaal",

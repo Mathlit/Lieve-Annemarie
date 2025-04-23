@@ -164,7 +164,7 @@ const submitForm = async () => {
                 class="mt-6 p-4 border-t border-slate-200"
             >
                 <p class="text-sm text-slate-700">
-                    <strong>{{ submittedMessage.naam }}</strong> schreef op
+                    <strong>{{ submittedMessage.naam }}</strong>
                     {{ submittedMessage.datum }}:
                 </p>
                 <p class="mt-2 text-slate-800">
