@@ -1,5 +1,5 @@
 <script setup>
-const title = ref("Van Mij");
+const title = ref("Voor Hen");
 
 definePageMeta({
     layout: "landing",
@@ -24,7 +24,7 @@ definePageMeta({
                 een bijdrage voor een klein studiefonds voor Gilles en Lena of
                 anderzijds voor
                 <NuxtLink
-                    class="text-[#f16b8c] hover:text-[#da5475] transition transition-duration-200"
+                    class="text-[#779273] hover:text-[#556d51] underline transition transition-duration-200"
                     href="https://www.womeninc.nl"
                     target="_blank"
                     >Women Inc</NuxtLink
@@ -52,7 +52,7 @@ definePageMeta({
                 De opbrengst van deze actie zullen we 50/50 verdelen tussen een
                 klein studiefonds voor de kids en
                 <NuxtLink
-                    class="text-[#f16b8c] hover:text-[#da5475] transition transition-duration-200"
+                    class="text-[#779273] hover:text-[#556d51] underline transition transition-duration-200"
                     href="https://www.womeninc.nl"
                     target="_blank"
                     >Women Inc</NuxtLink
@@ -92,6 +92,66 @@ definePageMeta({
                     <span>Ann's Lijstje</span>
                 </NuxtLink>
             </div>
+
+            <h2 class="text-2xl lg:text-3xl font-bold mt-4 text-[#1e242a]">
+                Artikelen
+            </h2>
+            <p>
+                Twee artikelen die mij hebben geholpen het een en ander in
+                perspectief te zetten en te begrijpen wat er met mij gebeurde en
+                hoe hiermee om te kunnen gaan
+            </p>
+
+            <p class="mt-4">In dit artikel bespreekt de auteur de druk die moeders voelen om de perfecte moeder te zijn en dat dit ten koste kan gaan van hun eigen gezondheid. Ook stelt hij dat moederschap juist geen beschermende factor is tegen zelfdoding, maar juist een mogelijke katalysator.
+            </p>
+            <div class="inline-flex justify-center gap-3 center center mb-4">
+                <NuxtLink
+                    href="https://journals.sagepub.com/doi/10.1177/10778012241265365"
+                    target="_blank"
+                    class="py-3 px-5 text-center inline-flex items-center gap-2 text-[#1e242a] bg-[#f8e5c6] rounded-md font-semibold hover:bg-[#f4cf8b] transition duration-200"
+                >
+                    <Icon name="iconoir:journal" />
+                    <span>Sage Journals</span>
+                </NuxtLink>
+            </div>
+
+            <p>
+                Tenslotte een mooi artikel dat ik hoop dat alle mensen om mij
+                heen zullen lezen en hen rust kan geven. Niet elke suïcide kan
+                voorkomen worden; depressie is soms een ongeneeslijke en
+                dodelijke ziekte.
+            </p>
+
+            <div class="inline-flex justify-center gap-3 center center mb-4">
+                <NuxtLink
+                    href="https://speakingofsuicide.com/2024/09/23/not-always-preventable/"
+                    target="_blank"
+                    class="py-3 px-5 text-center inline-flex items-center gap-2 text-[#1e242a] bg-[#f8e5c6] rounded-md font-semibold hover:bg-[#f4cf8b] transition duration-200"
+                >
+                    <Icon name="iconoir:journal" />
+                    <span>Speaking of Suicide</span>
+                </NuxtLink>
+            </div>
+
+            <!-- <div class="inline-flex justify-center gap-3 center center mb-4">
+                <NuxtLink
+                    href="https://journals.sagepub.com/doi/10.1177/10778012241265365"
+                    target="_blank"
+                    class="py-3 px-5 text-center inline-flex items-center gap-2 text-[#1e242a] bg-[#f8e5c6] rounded-md font-semibold hover:bg-[#f4cf8b] transition duration-200"
+                >
+                    <Icon name="iconoir:journal" />
+                    <span>Sage Journals</span>
+                </NuxtLink>
+
+                <NuxtLink
+                    href="https://speakingofsuicide.com/2024/09/23/not-always-preventable/"
+                    target="_blank"
+                    class="py-3 px-5 text-center inline-flex items-center gap-2 text-[#1e242a] bg-[#f8e5c6] rounded-md font-semibold hover:bg-[#f4cf8b] transition duration-200"
+                >
+                    <Icon name="iconoir:journal" />
+                    <span>Speaking of Suicide</span>
+                </NuxtLink>
+            </div> -->
         </div>
     </LandingContainer>
 </template>

@@ -87,7 +87,7 @@ const title = ref("Mijn Verhaal");
                 Voor jullie allemaal heb ik ook een paar adviezen, om te
                 voorkomen dat jou hetzelfde overkomt:
             </p>
-            <ul>
+            <ul class="list-disc pl-6">
                 <li>
                     Als je gelukkig bent, neem het dan niet voor lief. Waardeer
                     wat je hebt. Onderhoud het goed.- Als je voelt dat het niet

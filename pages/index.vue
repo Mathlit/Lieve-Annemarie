@@ -50,9 +50,9 @@ definePageMeta({
                 mogelijkheid wil bieden om geld te doneren aan een studiefonds
                 voor haar kinderen en WomenInc, een stichting die zich inzet
                 voor gelijke rechten voor vrouwen. Deze link vind je onder "<NuxtLink
-                    class="text-[#f16b8c] hover:text-[#da5475] transition transition-duration-200"
-                    href="/van-mij"
-                    >Van Mij</NuxtLink
+                    class="text-[#779273] hover:text-[#556d51] underline transition transition-duration-200"
+                    href="/voor-hen"
+                    >Voor Hen</NuxtLink
                 >".
             </p>
         </div>
