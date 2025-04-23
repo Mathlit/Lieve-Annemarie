@@ -5,7 +5,7 @@ const menuitems = [
     path: "/",
   },
   {
-    title: "Mijn verhaal",
+    title: "Mijn Verhaal",
     path: "/mijn-verhaal",
   },
   // {
@@ -13,12 +13,12 @@ const menuitems = [
   //   path: "/mijn-inspiratie",
   // },
   {
-    title: "Van mij",
+    title: "Van Mij",
     path: "/van-mij",
   },
   {
-    title: "Jouw verhaal",
-    path: "/jouw-verhaal",
+    title: "Jouw Boodschap",
+    path: "/jouw-boodschap",
   },
 ];
 
@@ -65,12 +65,13 @@ const open = ref(false);
       >
         <ul class="flex flex-col lg:flex-row lg:gap-3">
           <li v-for="item of menuitems">
-            <a
+            <NuxtLink
               :href="item.path"
+              @click="open = false"
               class="flex text-xl lg:px-3 py-2 text-gray-800 hover:text-gray-900"
             >
               {{ item.title }}
-            </a>
+            </NuxtLink>
           </li>
         </ul>
       </nav>

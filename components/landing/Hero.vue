@@ -1,9 +1,9 @@
 <template>
     <main class="grid place-items-center pt-16 pb-8 md:pt-8">
         <div class="pb-4 md:order-1 block">
-            <img
+            <NuxtImg
                 class="rounded-full"
-                src="~/assets/img/pf-2.png"
+                src="/img/pf2.jpeg"
                 alt="Annemarie"
                 loading="eager"
                 format="avif"

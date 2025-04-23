@@ -1,5 +1,5 @@
 <script setup>
-const title = ref("Van mij");
+const title = ref("Van Mij");
 
 definePageMeta({
     layout: "landing",
@@ -15,24 +15,30 @@ definePageMeta({
         </LandingSectionhead>
 
         <div
-            class="flex flex-col gap-4 mt-16 text-slate-500 text-lg leading-relaxed text-center"
+            class="flex flex-col gap-4 mt-16 text-slate-800 text-lg leading-relaxed text-center"
         >
             <p>
                 Lieverds, het was de wens van Annemarie dat mensen die een
                 donatie willen doen in plaats van bloemen of andere zaken voor
                 haar afscheidsdienst te kopen, dat kunnen doen in de vorm van
                 een bijdrage voor een klein studiefonds voor Gilles en Lena of
-                anderzijds voor Women Inc. We hebben dus een gofundme opgezet.
+                anderzijds voor
+                <NuxtLink
+                    class="text-[#f16b8c] hover:text-[#da5475] transition transition-duration-200"
+                    href="https://www.womeninc.nl"
+                    target="_blank"
+                    >Women Inc</NuxtLink
+                >. We hebben dus een gofundme opgezet.
             </p>
             <div class="flex justify-center center mb-4">
-                <a
+                <NuxtLink
                     href="https://www.gofundme.com/f/studiefonds-voor-gilles-en-lena"
                     target="_blank"
                     class="py-3 px-5 text-center inline-flex items-center gap-2 text-[#1e242a] bg-[#f8e5c6] rounded-md font-semibold hover:bg-[#f4cf8b] transition duration-200"
                 >
                     <Icon name="simple-icons:gofundme" />
                     <span>GoFundMe</span>
-                </a>
+                </NuxtLink>
             </div>
 
             <p>
@@ -44,41 +50,47 @@ definePageMeta({
 
             <p>
                 De opbrengst van deze actie zullen we 50/50 verdelen tussen een
-                klein studiefonds voor de kids en <a class="text-[#f1a7b9]" href="https://www.womeninc.nl" target="_blank">Women Inc</a>. Precies zoals Annemarie dat zou
-                hebben gewild. De schat.
+                klein studiefonds voor de kids en
+                <NuxtLink
+                    class="text-[#f16b8c] hover:text-[#da5475] transition transition-duration-200"
+                    href="https://www.womeninc.nl"
+                    target="_blank"
+                    >Women Inc</NuxtLink
+                >. Precies zoals Annemarie dat zou hebben gewild. De schat.
             </p>
 
             <p>
-                Deel deze actie gerust onder geliefden en bekenden maar hou het van social media af s.v.p.
+                Deel deze actie gerust onder geliefden en bekenden maar hou het
+                van social media af s.v.p.
             </p>
 
-            <p>
-                Dank namens iedereen, maar vooral Annemarie.
-            </p>
+            <p>Dank namens iedereen, maar vooral Annemarie.</p>
 
-            <h2 class="text-2xl lg:text-3xl font-bold mt-4 text-[#1e242a]">Muziek</h2>
+            <h2 class="text-2xl lg:text-3xl font-bold mt-4 text-[#1e242a]">
+                Muziek
+            </h2>
             <p>
                 Muziek die Annemarie tot haar laatste momenten met haar meenam:
             </p>
 
             <div class="inline-flex justify-center gap-3 center center mb-4">
-                <a
-                    href="https://open.spotify.com/playlist/4X1poonxdifniNlDEeb7pa?pi=0koVbEHqRaWA2"
+                <NuxtLink
+                    href="https://open.spotify.com/playlist/4X1poonxdifniNlDEeb7pa"
                     target="_blank"
                     class="py-3 px-5 text-center inline-flex items-center gap-2 text-[#1e242a] bg-[#aebfab] rounded-md font-semibold hover:bg-[#95a892] transition duration-200"
                 >
                     <Icon name="mdi:spotify" />
                     <span>Milky</span>
-                </a>
+                </NuxtLink>
 
-                <a
-                    href="https://www.gofundme.com/f/studiefonds-voor-gilles-en-lena"
+                <NuxtLink
+                    href="https://open.spotify.com/playlist/0t783nLbcLSROTzDwd5LOT"
                     target="_blank"
                     class="py-3 px-5 text-center inline-flex items-center gap-2 text-[#1e242a] bg-[#aebfab] rounded-md font-semibold hover:bg-[#95a892] transition duration-200"
                 >
                     <Icon name="mdi:spotify" />
                     <span>Ann's Lijstje</span>
-                </a>
+                </NuxtLink>
             </div>
         </div>
     </LandingContainer>

@@ -11,41 +11,50 @@ definePageMeta({
     <LandingContainer>
         <LandingHero></LandingHero>
 
-        <div class="mt-16 md:mt-0 text-lg text-slate-600 text-center">
-            <p class="mb-3 italic">
+        <div
+            class="mt-16 md:mt-0 text-lg flex flex-col gap-4 text-slate-800 text-center"
+        >
+            <p class="italic mb-4">
                 If my love for you could keep me alive, I would have lived
                 forever
             </p>
-            <p class="mb-3">
+            <p>
                 Na een te kort leven en een te lang ziektebed hebben wij veel te
                 vroeg afscheid moeten nemen van onze liefste moeder en mijn
                 mooiste partner, onze perfecte dochter, onze beste sis, mijn
                 grappigste tante, onze leukste schoonzus en mijn minst strenge
-                baasje
+                baasje.
             </p>
-            <p class="mb-3">
+            <p>
                 Ze weet dat jullie van haar houden, maar ze was gestopt met het
-                houden van haarzelf
+                houden van haarzelf.
             </p>
-            <p class="">De enige die zij uiteindelijk niet aankon, dat was zij zelf</p>
-        </div>
+            <p>De enige die zij uiteindelijk niet aankon, dat was zij zelf.</p>
 
-        <div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
-            <div v-for="item of features" class="flex gap-4 items-start">
-                <div class="mt-1 bg-black rounded-full p-2 w-8 h-8 shrink-0">
-                    <Icon class="text-white" :name="item.icon" />
-                </div>
-                <div>
-                    <h3 class="font-semibold text-lg">{{ item.title }}</h3>
-                    <p class="text-slate-500 mt-2 leading-relaxed">
-                        {{ item.description }}
-                    </p>
-                </div>
-            </div>
+            <p>
+                Om iedereen de kans te geven van Annemarie te leren en haar nog
+                een laatste groet te brengen, hebben wij deze website gebouwd.
+                Alle berichten die jullie plaatsen zullen we na verloop van tijd
+                bundelen in een boek voor de kinderen. Herinner voor hen
+                alsjeblieft de leuke tijd met Annemarie, wat voor geweldig mens
+                het was en wat ze hen graag zou willen meegeven.
+            </p>
+            <p>
+                Ook hebben we Annemarie’s verhaal gedeeld dat ze voor iedereen
+                scheef. Zodat we haar niet vergeten en beseffen hoe ernstig de
+                gevolgen van een depressie kunnen zijn.
+            </p>
+            <p>
+                Tenslotte heeft Annemarie aangeven dat zij mensen, die niet een
+                bloemstuk of iets anders willen kopen voor de dienst, de
+                mogelijkheid wil bieden om geld te doneren aan een studiefonds
+                voor haar kinderen en WomenInc, een stichting die zich inzet
+                voor gelijke rechten voor vrouwen. Deze link vind je onder "<NuxtLink
+                    class="text-[#f16b8c] hover:text-[#da5475] transition transition-duration-200"
+                    href="/van-mij"
+                    >Van Mij</NuxtLink
+                >".
+            </p>
         </div>
-
-        <!-- <LandingFeatures></LandingFeatures> -->
-        <!-- <LandingLogos></LandingLogos> -->
-        <!-- <LandingCta></LandingCta> -->
     </LandingContainer>
 </template>
