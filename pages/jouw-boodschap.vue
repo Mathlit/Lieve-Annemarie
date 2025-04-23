@@ -1,5 +1,5 @@
 <script setup>
-const title = ref("Jouw verhaal");
+const title = ref("Jouw Verhaal");
 
 definePageMeta({
     layout: "landing",
@@ -66,25 +66,15 @@ const submitForm = async () => {
 <template>
     <Title>{{ title }} - Lieve Annemarie</Title>
     <LandingContainer>
-        <h1
-            class="text-3xl lg:text-4xl xl:text-5xl font-bold lg:tracking-tight text-center mt-20"
-        >
-            {{ title }}
-        </h1>
-        <div class="flex column justify-center">
-            <p
-                class="text-md w-full lg:text-lg mt-4 text-center text-slate-600 max-w-xl"
-            ></p>
-        </div>
+        <LandingSectionhead>
+            <template v-slot:title>{{ title }}</template>
+            <template v-slot:desc>Deel en lees steunbetuigingen en berichten voor Annemarie.</template>
+        </LandingSectionhead>
     </LandingContainer>
 
     <LandingContainer>
-        <p class="text-lg text-slate-900 text-center mb-5">
-            Lees hier de steunbetuigingen en berichten voor Annemarie.
-        </p>
-
         <!-- Trigger -->
-        <div class="flex justify-center">
+        <div class="flex justify-center mt-4">
             <span
                 class="inline-block px-4 py-2 cursor-pointer rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 bg-white border-2 border-grey-900 hover:bg-gray-100 text-black"
                 @click="showForm = true"

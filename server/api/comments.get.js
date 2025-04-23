@@ -23,6 +23,7 @@ export default defineEventHandler(async (event) => {
         return comment;
     });
 
-    return comments;
+    return [];
+    // return comments;
     // return rawComments;
 });
