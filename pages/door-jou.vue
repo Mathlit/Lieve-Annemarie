@@ -1,5 +1,5 @@
 <script setup>
-const title = ref("Jouw Boodschap");
+const title = ref("Door Jou");
 
 definePageMeta({
     layout: "landing",

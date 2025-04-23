@@ -5,20 +5,16 @@ const menuitems = [
     path: "/",
   },
   {
-    title: "Mijn Verhaal",
-    path: "/mijn-verhaal",
+    title: "Van Mij",
+    path: "/van-mij",
   },
-  // {
-  //   title: "Mijn inspiratie",
-  //   path: "/mijn-inspiratie",
-  // },
   {
     title: "Voor Hen",
     path: "/voor-hen",
   },
   {
-    title: "Jouw Boodschap",
-    path: "/jouw-boodschap",
+    title: "Door Jou",
+    path: "/door-jou",
   },
 ];
 

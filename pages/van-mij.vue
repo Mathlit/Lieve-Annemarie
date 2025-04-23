@@ -2,7 +2,7 @@
 definePageMeta({
     layout: "landing",
 });
-const title = ref("Mijn Verhaal");
+const title = ref("Van Mij");
 </script>
 
 <template>
