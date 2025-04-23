@@ -132,26 +132,6 @@ definePageMeta({
                     <span>Speaking of Suicide</span>
                 </NuxtLink>
             </div>
-
-            <!-- <div class="inline-flex justify-center gap-3 center center mb-4">
-                <NuxtLink
-                    href="https://journals.sagepub.com/doi/10.1177/10778012241265365"
-                    target="_blank"
-                    class="py-3 px-5 text-center inline-flex items-center gap-2 text-[#1e242a] bg-[#f8e5c6] rounded-md font-semibold hover:bg-[#f4cf8b] transition duration-200"
-                >
-                    <Icon name="iconoir:journal" />
-                    <span>Sage Journals</span>
-                </NuxtLink>
-
-                <NuxtLink
-                    href="https://speakingofsuicide.com/2024/09/23/not-always-preventable/"
-                    target="_blank"
-                    class="py-3 px-5 text-center inline-flex items-center gap-2 text-[#1e242a] bg-[#f8e5c6] rounded-md font-semibold hover:bg-[#f4cf8b] transition duration-200"
-                >
-                    <Icon name="iconoir:journal" />
-                    <span>Speaking of Suicide</span>
-                </NuxtLink>
-            </div> -->
         </div>
     </LandingContainer>
 </template>
