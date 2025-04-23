@@ -97,12 +97,18 @@ definePageMeta({
                 Artikelen
             </h2>
             <p>
-                Twee artikelen die mij hebben geholpen het een en ander in
-                perspectief te zetten en te begrijpen wat er met mij gebeurde en
-                hoe hiermee om te kunnen gaan
+                Twee artikelen die Annemarie, zo hebben wij later geleerd via
+                haar brieven, hebben geholpen het een en ander in perspectief te
+                zetten en te begrijpen wat er met haar gebeurde en hoe wij hier
+                vervolgens mee om zouden kunnen gaan.
             </p>
 
-            <p class="mt-4">In dit artikel bespreekt de auteur de druk die moeders voelen om de perfecte moeder te zijn en dat dit ten koste kan gaan van hun eigen gezondheid. Ook stelt hij dat moederschap juist geen beschermende factor is tegen zelfdoding, maar juist een mogelijke katalysator.
+            <p class="mt-4">
+                In dit artikel bespreekt de auteur de druk die moeders voelen om
+                de perfecte moeder te zijn en dat dit ten koste kan gaan van hun
+                eigen gezondheid. Ook stelt hij dat moederschap juist geen
+                beschermende factor is tegen zelfdoding, maar juist een
+                mogelijke katalysator.
             </p>
             <div class="inline-flex justify-center gap-3 center center mb-4">
                 <NuxtLink
@@ -116,10 +122,10 @@ definePageMeta({
             </div>
 
             <p>
-                Tenslotte een mooi artikel dat ik hoop dat alle mensen om mij
-                heen zullen lezen en hen rust kan geven. Niet elke suïcide kan
-                voorkomen worden; depressie is soms een ongeneeslijke en
-                dodelijke ziekte.
+                Tenslotte een mooi artikel waarvan zij hoopte dat alle mensen om
+                haar heen het zouden lezen en hen rust zou kunnen geven. Niet
+                elke suïcide kan voorkomen worden; depressie is soms een
+                ongeneeslijke en dodelijke ziekte.
             </p>
 
             <div class="inline-flex justify-center gap-3 center center mb-4">
