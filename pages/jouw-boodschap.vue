@@ -1,5 +1,5 @@
 <script setup>
-const title = ref("Jouw Verhaal");
+const title = ref("Jouw Boodschap");
 
 definePageMeta({
     layout: "landing",
@@ -79,7 +79,7 @@ const submitForm = async () => {
                 class="inline-block px-4 py-2 cursor-pointer rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 bg-white border-2 border-grey-900 hover:bg-gray-100 text-black"
                 @click="showForm = true"
             >
-                Schrijf een bericht.
+                Schrijf een bericht
             </span>
         </div>
 

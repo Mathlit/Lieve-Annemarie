@@ -13,8 +13,8 @@ const menuitems = [
   //   path: "/mijn-inspiratie",
   // },
   {
-    title: "Van Mij",
-    path: "/van-mij",
+    title: "Voor Hen",
+    path: "/voor-hen",
   },
   {
     title: "Jouw Boodschap",
