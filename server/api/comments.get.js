@@ -5,11 +5,14 @@ export default defineEventHandler(async (event) => {
         },
     });
 
-    const comments = rawComments.map(rawComment => {
+    const comments = rawComments
+    .slice() // optional: create a shallow copy to avoid mutating original array
+    .sort((a, b) => new Date(b.date) - new Date(a.date)) // sort by date descending
+    .map(rawComment => {
         const comment = {
             naam: rawComment.name,
             bericht: rawComment.message,
-        }
+        };
 
         if (rawComment.date) {
             const date = new Date(rawComment.date);
