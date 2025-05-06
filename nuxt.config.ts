@@ -18,7 +18,13 @@ export default defineNuxtConfig({
         },
     },
 
-    modules: ["nuxt-icon", "@nuxt/fonts", "@nuxt/icon", "@nuxt/image"],
+    modules: [
+        "nuxt-icon",
+        "@nuxt/fonts",
+        "@nuxt/icon",
+        "@nuxt/image",
+        "@nuxt/scripts",
+    ],
 
     fonts: {
         families: [
@@ -34,4 +40,12 @@ export default defineNuxtConfig({
     },
 
     compatibilityDate: "2025-04-19",
+
+    scripts: {
+        registry: {
+            matomoAnalytics: {
+                matomoUrl: "https://matomo.mathijslitjens.nl",
+            },
+        },
+    },
 });
