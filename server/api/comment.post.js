@@ -30,8 +30,6 @@ export default defineEventHandler(async (event) => {
         body: data
     });
 
-    console.log(commentResponse);
-
     response.status = "success";
     response.message = "Bericht verzonden en wordt spoedig geplaatst.";
 

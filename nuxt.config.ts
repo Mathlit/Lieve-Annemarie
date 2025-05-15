@@ -21,9 +21,9 @@ export default defineNuxtConfig({
     modules: [
         "nuxt-icon",
         "@nuxt/fonts",
-        "@nuxt/icon",
         "@nuxt/image",
-        "@nuxt/scripts",
+        "@nuxtjs/sitemap",
+        "@nuxtjs/robots",
     ],
 
     fonts: {
@@ -40,12 +40,11 @@ export default defineNuxtConfig({
     },
 
     compatibilityDate: "2025-04-19",
-
-    scripts: {
-        registry: {
-            matomoAnalytics: {
-                matomoUrl: "https://matomo.mathijslitjens.nl",
-            },
-        },
+    sitemap: {
+        xsl: false,
+    },
+    robots: {
+        sitemap: "/sitemap.xml",
+        allow: ["/", "/door-jou", "/van-mij", "/voor-hen", "/privacy"],
     },
 });
