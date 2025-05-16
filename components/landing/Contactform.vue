@@ -30,7 +30,6 @@ onMounted(() => {
                     result.classList.add("text-green-500");
                     result.innerHTML = json.message;
                 } else {
-                    console.log(response);
                     result.classList.add("text-red-500");
                     result.innerHTML = json.message;
                 }
