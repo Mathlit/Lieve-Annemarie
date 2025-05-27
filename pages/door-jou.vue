@@ -190,7 +190,7 @@ const submitForm = async () => {
         </div>
 
         <ul
-            :class="['mt-12', 'px-5', 'mb-12', ...commentClass.container]"
+            :class="['mt-12', 'mb-12', ...commentClass.container]"
             v-if="comments"
         >
             <li

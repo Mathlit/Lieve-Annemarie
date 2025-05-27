@@ -55,18 +55,20 @@ definePageMeta({
             </p>
             <p>
                 Op termijn worden de geplaatste reacties gebundeld in een fysiek
-                boek dat aan de familie wordt overhandigd. <strong>De reacties zullen
-                niet voor andere doeleinden worden gebruikt of online worden
-                gedeeld</strong>.
+                boek dat aan de familie wordt overhandigd.
+                <strong
+                    >De reacties zullen niet voor andere doeleinden worden
+                    gebruikt of online worden gedeeld</strong
+                >.
             </p>
             <p>
                 Mocht u een geplaatste reactie willen aanpassen of laten
                 verwijderen, dan kunt u hiervoor het bestaande reactieformulier
                 gebruiken. Vermeld in uw bericht duidelijk dat het om een
                 verwijder- of wijzigingsverzoek gaat. Wij vragen u daarbij om
-                een e-mailadres in te vullen, zodat wij contact met u kunnen
-                opnemen over uw verzoek. Dit e-mailadres wordt uitsluitend voor
-                dat doel gebruikt.
+                een e-mailadres bij uw bericht toe te voegen, zodat wij contact
+                met u kunnen opnemen over uw verzoek. Dit e-mailadres wordt
+                uitsluitend voor dat doel gebruikt.
             </p>
         </div>
     </LandingContainer>
