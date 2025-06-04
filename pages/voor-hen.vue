@@ -21,8 +21,8 @@ definePageMeta({
                 Lieverds, het was de wens van Annemarie dat mensen die een
                 donatie willen doen in plaats van bloemen of andere zaken voor
                 haar afscheidsdienst te kopen, dat kunnen doen in de vorm van
-                een bijdrage voor een klein studiefonds voor Gilles en Lena of
-                anderzijds voor
+                een bijdrage voor een klein studiefonds voor haar twee lieve
+                kinderen of anderzijds voor
                 <NuxtLink
                     class="text-[#779273] hover:text-[#556d51] underline transition transition-duration-200"
                     href="https://www.womeninc.nl"
