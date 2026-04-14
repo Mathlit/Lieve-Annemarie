@@ -40,6 +40,16 @@ export default defineNuxtConfig({
     },
 
     compatibilityDate: "2025-04-19",
+    runtimeConfig: {
+        datocmsApiUrl: process.env.DATOCMS_API_URL,
+        datocmsReadToken: process.env.DATOCMS_READ_TOKEN,
+        datocmsWriteToken: process.env.DATOCMS_WRITE_TOKEN,
+        public: {
+            datocms: {
+                apiToken: process.env.DATOCMS_READ_TOKEN,
+            },
+        },
+    },
     sitemap: {
         xsl: false,
     },

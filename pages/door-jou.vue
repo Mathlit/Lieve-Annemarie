@@ -59,9 +59,8 @@ const submitForm = async () => {
                 naam: naam.value,
                 bericht: bericht.value,
             };
+
             // Reset inputs
-            naam.value = "";
-            bericht.value = "";
         } else {
             apiFeedback.value = {
                 status: "error",
@@ -74,7 +73,7 @@ const submitForm = async () => {
             message: "Netwerkfout. Probeer het opnieuw.",
         };
     } finally {
-        // isSubmitting.value = false;
+        isSubmitting.value = false;
     }
 };
 </script>

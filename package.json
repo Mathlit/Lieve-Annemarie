@@ -6,6 +6,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "import:messages": "node scripts/import-messages-to-dato.mjs",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
