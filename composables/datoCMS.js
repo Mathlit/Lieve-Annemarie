@@ -1,4 +1,4 @@
-export default async function useGraphqlQuery({query, variables = {}}) {
+export default async function useGraphqlQuery({ query, variables = {} }) {
     // a unique key to ensure that data fetching
     // can be properly de-duplicated across requests,
     const key = JSON.stringify({
@@ -24,7 +24,7 @@ export default async function useGraphqlQuery({query, variables = {}}) {
         },
         transform: ({ data, errors }) => {
             if (errors) {
-                throw new errors;
+                throw errors;
             }
 
             return data;

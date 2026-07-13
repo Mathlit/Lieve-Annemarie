@@ -1,37 +1,27 @@
-import { buildClient } from "@datocms/cma-client-node";
-const client = buildClient({ apiToken: process.env.DATOCMS_API_TOKEN });
+import { createMessage } from "../utils/datocms";
 
 export default defineEventHandler(async (event) => {
     const input = await readBody(event);
-    const response = {};
-    const data = {
-        status: "afwachting",
-    };
+    const naam = input?.naam?.trim();
+    const bericht = input?.bericht?.trim();
 
-    // Validate params
-
-    if (!input.naam || !input.bericht || !input.naam.trim()) {
-        response.status = "error";
-        response.message = "Niet alle velden zijn ingevuld";
-
-        return response;
+    if (!naam || !bericht) {
+        return {
+            status: "error",
+            message: "Niet alle velden zijn ingevuld",
+        };
     }
 
-    data.Name = input.naam;
-    // data.email = input.email || "";
-    data.Message = input.bericht;
-
-    // return data;
-    const commentResponse = await $fetch(`${process.env.COMMENT_API_ENDPOINT}/comment`, {
-        method: "POST",
-        headers: {
-            "secret-key": process.env.COMMENT_API_KEY,
-        },
-        body: data
+    await createMessage({
+        from: naam,
+        text: bericht,
+        email: "",
+        date: new Date().toISOString(),
+        publish: false,
     });
 
-    response.status = "success";
-    response.message = "Bericht verzonden en wordt spoedig geplaatst.";
-
-    return response;
+    return {
+        status: "success",
+        message: "Bericht verzonden en wordt na controle geplaatst.",
+    };
 });
