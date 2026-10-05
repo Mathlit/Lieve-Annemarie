@@ -34,29 +34,6 @@ async function parseDatoResponse(response) {
     return payload;
 }
 
-async function datoCmaRequest(path, options = {}) {
-    const { apiUrl, writeToken } = getDatoRuntimeConfig();
-
-    if (!writeToken) {
-        throw createError({
-            statusCode: 500,
-            statusMessage: "Missing DATOCMS_WRITE_TOKEN",
-        });
-    }
-
-    const response = await fetch(`${apiUrl}${path}`, {
-        method: options.method || "GET",
-        headers: getDatoHeaders(writeToken, {
-            "Content-Type": "application/vnd.api+json",
-            "X-Api-Version": DATO_API_VERSION,
-            ...(options.headers || {}),
-        }),
-        body: options.body ? JSON.stringify(options.body) : undefined,
-    });
-
-    return parseDatoResponse(response);
-}
-
 async function getMessageModelId() {
     if (cachedMessageModelId) {
         return cachedMessageModelId;
